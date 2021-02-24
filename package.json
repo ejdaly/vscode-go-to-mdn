@@ -57,7 +57,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile",
     "test": "node ./dist/test/runTest.js",
-    "cov:fixpaths": "gulp fixCoverageReportSrcPaths"
+    "cov:fixpaths": "gulp fixCoverageReportSrcPaths",
+    "package": "vsce package"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
@@ -87,7 +88,8 @@
   "dependencies": {
     "debounce": "^1.2.0",
     "node-fetch": "^2.6.1",
-    "open": "^7.0.4"
+    "open": "^7.0.4",
+    "vsce": "^1.85.0"
   },
   "license": "MIT",
   "repository": {

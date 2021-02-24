@@ -3,7 +3,7 @@ import { assert } from "chai";
 import * as extension from "../../extension";
 import { getExtensionContext } from "../util/mockFactory";
 import { stubMultiple } from "../util/stubUtils";
-import ExtensionController from "../../ExtensionController";
+import ExtensionController from "../../extensionController";
 
 describe("extension", () => {
   let context: vscode.ExtensionContext;

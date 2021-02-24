@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-import ExtensionController from "./ExtensionController";
+import ExtensionController from "./extensionController";
 
 export async function browse(extensionController: ExtensionController) {
   await extensionController.browse();

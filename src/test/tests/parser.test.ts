@@ -1,7 +1,7 @@
 import { assert } from "chai";
 import Parser from "../../parser";
-import Item from "../../interfaces/Item";
-import ItemType from "../../enums/ItemType";
+import Item from "../../interfaces/item";
+import ItemType from "../../enums/itemType";
 import * as mock from "../mocks/parser.mock";
 
 describe("Parser", () => {

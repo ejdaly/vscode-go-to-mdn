@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { assert } from "chai";
 import * as sinon from "sinon";
-import ExtensionController from "../../ExtensionController";
+import ExtensionController from "../../extensionController";
 import { getExtensionContext } from "../util/mockFactory";
 import { restoreStubbedMultiple, stubMultiple } from "../util/stubUtils";
 
